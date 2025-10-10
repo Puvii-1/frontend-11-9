@@ -3,33 +3,33 @@
 // 2] condition -> num<=  if condition not true -- loop end
 // 3] task execution -> console.log
 // 4] updation -> num++
-// for(let num = 1; num <= 10 ; num++){
-//     console.log("Sorry" , num);
-//     console.log("Really Sorry")
-// }
-// console.log('Out of the loop');
+for(let num = 1; num <= 10 ; num++){
+    console.log("Sorry" , num);
+    console.log("Really Sorry")
+}
+console.log('Out of the loop');
 
-// for(let num = 1; num<=15; num++){
-//     console.log("Purvi Patil",num);
-// }
+for(let num = 1; num<=15; num++){
+    console.log("Purvi Patil",num);
+}
 
 
 // //print odd numbers from 1 to 20
-// for(let num =1; num<=20;num++){
-//     if(num%2!=0){
-//         console.log(num);
-//     }
+for(let num =1; num<=20;num++){
+    if(num%2!=0){
+        console.log(num);
+    }
     
-// }
+}
 
 //Even numbers from 1 to 20
-// for(let num = 0; num<= 20; num=num+2){
-//         console.log(num);
-// }
+for(let num = 0; num<= 20; num=num+2){
+        console.log(num);
+}
 
-// for(let num = 5; num<= 50; num = num+5){
-//     console.log(num);
-// }
+for(let num = 5; num<= 50; num = num+5){
+    console.log(num);
+}
 
 // reverse 
 for(let num = 100 ; num <= 1; num--){
