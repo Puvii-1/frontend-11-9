@@ -1,5 +1,5 @@
 // commands to buy milk from a store
-function getMilk(){  
+function getMilk(money){  
   console.log("leaveHouse");
   console.log("moveRight");
   console.log("moveRight");
@@ -9,6 +9,8 @@ function getMilk(){
   console.log("moveUp");
   console.log("moveRight");
   console.log("moveRight");
+  var change = money / 10;
+  console.log("BuyMilk"  + money + "bottles of milK");
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("moveDown");
@@ -18,8 +20,18 @@ function getMilk(){
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("enterHouse");
+  return change 
 }
-getMilk();
+var value = getMilk(20);
+console.log(value);
 
-//Parameters
+
+
+//Parameter 
+
+//Return a value
+
+
+
+
 
