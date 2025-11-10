@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form>
+      <label for="first-name">Enter your name</label>
+      <br />
+      <input type="text" name="first_name" required id="first-name" />
+      <br />
+      <br />
+      <input
+        type="email"
+        placeholder="Enter your email"
+        name="email"
+        required
+      />
+      <br />
+      <br />
+      <input
+        type="password"
+        placeholder="Enter your password"
+        name="password"
+        required
+      />
+      <br />
+      <br />
+      <label for="course">Select course</label>
+      <br />
+      <select name="selected-course" id="course">
+        <option value="">-Select-</option>
+        <option value="java-full-stack">Full stack Java</option>
+        <option value="python-full-stack">Full stack Python</option>
+        <option value="mern-stack">MERN</option>
+      </select>
+      <br />
+      <br />
+
+      <p>Select Gender</p>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+
+      <input type="radio" id="others" name="gender" value="others" />
+      <label for="others">Others</label>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

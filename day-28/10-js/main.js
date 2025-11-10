@@ -21,3 +21,17 @@ function changeStyles(){
 function changeContent(){
     headingE1.innerHTML = "Hello Purvi darling";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
