@@ -8,25 +8,36 @@
   <body>
     <h1>Forms</h1>
     <form>
-      <label for="first-name">Enter your name</label>
-      <br />
-      <input type="text" name="first_name" required id="first-name" />
-      <br />
-      <br />
-      <input
-        type="email"
-        placeholder="Enter your email"
-        name="email"
-        required
-      />
-      <br />
-      <br />
-      <input
-        type="password"
-        placeholder="Enter your password"
-        name="password"
-        required
-      />
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="first-name">Enter your name</label>
+        <br />
+        <input
+          type="text"
+          name="first_name"
+          required
+          id="first-name"
+          maxlength="8"
+          minlength="3"
+        />
+        <br />
+        <br />
+        <input
+          type="email"
+          placeholder="Enter your email"
+          name="email"
+          required
+        />
+        <br />
+        <br />
+        <input
+          type="password"
+          placeholder="Enter your password"
+          name="password"
+          required
+        />
+      </fieldset>
+
       <br />
       <br />
       <label for="course">Select course</label>
